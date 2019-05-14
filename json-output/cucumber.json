@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Validate free crm home page test",
+        "description": "",
+        "id": "free-crm-application-test;validate-free-crm-home-page-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11663820010,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens browser",
+            "match": {
+              "location": "HomePageSteps.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 37478035,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on the login page",
+            "match": {
+              "location": "HomePageSteps.user_is_on_the_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3645008359,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters username and password",
+            "match": {
+              "location": "HomePageSteps.user_enters_username_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 71111423,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is on the home page",
+            "match": {
+              "location": "HomePageSteps.user_is_on_the_home_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4467768807,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on the new contacts page",
+            "match": {
+              "location": "HomePageSteps.user_is_on_the_new_contacts_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM application test",
+    "description": "",
+    "id": "free-crm-application-test",
+    "keyword": "Feature",
+    "uri": "E:/Selenium/Workspace/CucumberPOM/src/main/java/com/qa/features/freecrm.feature"
+  }
+]
